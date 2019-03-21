@@ -22,7 +22,6 @@ public class View extends JPanel {
         Graphics2D g2d = (Graphics2D) g;
         if(vectors != null) {
             for (Vector vec : vectors) {
-
                     System.out.println(vec.getA().getX()+ " " + vec.getA().getY()+ " " +vec.getB().getX()+ " " +vec.getB().getY());
                     g2d.drawLine((int) vec.getA().getX(),
                             (int) vec.getA().getY(), (int) vec.getB().getX(),
