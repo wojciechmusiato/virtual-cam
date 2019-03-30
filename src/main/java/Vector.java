@@ -16,6 +16,7 @@ public class Vector {
     public void setA(Point a) {
         this.a = a;
     }
+
     public void setA(RealMatrix m) {
         this.a = a;
     }

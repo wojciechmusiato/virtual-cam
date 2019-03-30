@@ -26,9 +26,15 @@ public class MainGUI extends JFrame implements KeyListener {
         view.setBorder(new TitledBorder(null, "", TitledBorder.LEADING,
                 TitledBorder.TOP, null, null));
         view.setBackground(Color.WHITE);
+        ZBuffer b = new ZBuffer();
+        int i=0;
+        while(i<10000000){
+            i++;
+        }
+        operations = new Operations(view,b);
 
-        operations = new Operations(view);
         operations.loadData();
+
         JPanel panel = new JPanel();
 
         GroupLayout groupLayout = new GroupLayout(getContentPane());
