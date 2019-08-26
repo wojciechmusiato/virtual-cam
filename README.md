@@ -5,4 +5,6 @@ Very simple 3d engine.  <br>
 <li>allows moving and rotating the camera around 3d items</li>
 <li>uses Z-Buffer to omit hidden surfaces</li>
 </ul>
-![How-Z-Buffer-works](../how%20it%20works.png)
+<p align="center">
+  <img src="./media/zbuffer.png"  title="hover text">
+</p>
