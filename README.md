@@ -5,4 +5,4 @@ Very simple 3d engine.  <br>
 <li>allows moving and rotating the camera around 3d items</li>
 <li>uses Z-Buffer to omit hidden surfaces</li>
 </ul>
-![How Z-Buffer works](https://github.com/wojciechmusiato/virtual-cam/blob/master/how%20it%20works.png)
+![How-Z-Buffer-works](./how%20it%20works.png)
